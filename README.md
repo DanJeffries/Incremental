@@ -4,14 +4,23 @@
 
 <b>A program for incrementally testing Stacks parameters</b>
 
+Restriction site Associated DNA sequencing (RADseq) has taken the world of molecular ecology by ~~the balls~~ storm! It has allowed biologists to obtain hugely powerful datasets of genome-wide molecular markers for organisms with no pre-existing molecular resources. 
 
-### Modules
+However, the analysis of RADseq data is not trivial, and is highly parameterised, with many factors to consider in order to get the best out of the data, without introducing systematic errors. Unfortunately we have not yet developed the ability to predict the future, as such, many preliminary trials are needed to inform the optimal choice of parameter values for RADseq analyses. But such tests require a lot of time and manual work.
 
-Incremental_U - This module currently allows you to test the -M, -m and --max_stacks_per_locus flags in the "Ustacks" module of stacks. 
+Enter <b>Incremental</b>, a set of python scripts which make these preliminary tests easy and informative. Simply provide incremental with a test set of RADseq data, some parameter values to test, and it will bestow upon you a set of publication-ready plots which will allow you to make informed decisions on the optimal parameters for your final analyses.
 
-Incremental_C - This module currently allows you to test the -n and -m flags in the "Cstacks" module of stacks. 
+So . . . how does incremental work . . . 
 
-Incremental_Pop - This module currently allows you to test the -p and -r flags in the "Populations" module of stacks. 
+### The Modules
+
+Incremental is made up of 3 modules, which reflect the major modules of Stacks.
+
+<b>Incremental_U</b> - This module currently allows you to test the -M, -m and --max_stacks_per_locus flags in the "Ustacks" module of stacks. 
+
+<b>Incremental_C</b> - This module currently allows you to test the -n and -m flags in the "Cstacks" module of stacks. 
+
+<b>Incremental_Pop</b> - This module currently allows you to test the -p and -r flags in the "Populations" module of stack. 
 
 
 
