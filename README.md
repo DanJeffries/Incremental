@@ -42,7 +42,7 @@ Cline versions under construction . . . .
 
 ### Elite team of kick-ass developers
 
-Dr. Daniel Jeffries - daniellee.jeffries@unil.ch
+Dr. Daniel Jeffries - daniellee.jeffries@unil.ch  
 Dr. Robert Lehmann - ...
 
 
