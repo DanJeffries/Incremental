@@ -4,7 +4,7 @@
 
 <b>A program for incrementally testing Stacks parameters</b>
 
-Restriction site Associated DNA sequencing (RADseq) has taken the world of molecular ecology by ~~the balls~~ storm! It has allowed biologists to obtain hugely powerful datasets of genome-wide molecular markers for organisms with no pre-existing molecular resources. 
+Restriction site Associated DNA sequencing (RADseq) has taken the world of molecular ecology by storm! It has allowed biologists to obtain hugely powerful datasets of genome-wide molecular markers for organisms with no pre-existing molecular resources. 
 
 However, the analysis of RADseq data is not trivial, and is highly parameterised, with many factors to consider in order to get the best out of the data, without introducing systematic errors. Unfortunately we have not yet developed the ability to predict the future, as such, many preliminary trials are needed to inform the optimal choice of parameter values for RADseq analyses. But such tests require a lot of time and manual work.
 
@@ -28,8 +28,8 @@ Incremental is made up of 3 modules, which reflect the major modules of Stacks.
 
 The workflows for each module are essentially the same (and very simple):
 
-1. Takes as input, file or directory paths to the input for that module and the parameter values for the parameters to test.
-2. The module will then constuct and execute Stacks commands.
+1. Takes as input, file or directory paths required for the Stacks module and the parameter values for the parameters to be tested.
+2. The module will then constuct and execute Stacks commands, saving commands and log files.
 3. The module parses various Stacks outputs and creates informative plots for the user.
 
 The plots for each module should give the user an idea of how their data behaves in response to which parameters, and should allow them to make informed decisions on parameter values for their final analyses.
@@ -41,7 +41,7 @@ NOTE*** Due to the computation time required for Stacks analyses, this pipeline 
 
 At the moment, the program exists as 3 separate python modules, with can be imported into python as usual. 
 
-Cline versions under construction . . . . 
+Cline versions may follw . . . . 
 
 ### DEPENDENCIES
 
@@ -49,10 +49,10 @@ Cline versions under construction . . . .
 2. pyVCF - (Can be installed from command line with pip)
 3. python 2.7
 
-### Elite team of kick-ass developers
+### Contact
 
 Dr. Daniel Jeffries - daniellee.jeffries@unil.ch  
-Dr. Robert Lehmann - ...
+
 
 
 
